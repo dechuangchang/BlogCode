@@ -1,0 +1,24 @@
+@import '~antd/dist/antd.css';
+.info{
+    height: 100vh;
+    .trigger {
+        font-size: 18px;
+        line-height: 64px;
+        padding: 0 24px;
+        cursor: pointer;
+        transition: color .3s;
+    }
+      
+    .trigger:hover {
+        color: #1890ff;
+    }
+      
+    .logo {
+        margin: 16px;
+        color: white;
+        display: block;
+        font-size: 43px;
+    }
+}
+
+
